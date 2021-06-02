@@ -1,11 +1,15 @@
 <template>
-  <router-link :to="{ name: 'UserDetails', params: { id: user.id }  }">
+  <tr>
     <div class="user-card">
       <!-- display event data -->
       <span>@{{ user.time }} on {{ user.date }}</span>
       <h4>{{ user.title }}</h4>
     </div>
-  </router-link>
+    <img alt="Vue logo" src="../assets/logo.png" />
+    <router-link :to="{ name: 'UserDetails', params: { id: user.id } }">
+      View
+    </router-link>
+  </tr>
 </template>
 
 <script>
