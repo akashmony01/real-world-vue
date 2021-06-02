@@ -1,14 +1,16 @@
 <template>
-  <div class="event-card">
-    <!-- displ evenmt data -->
-    <span>@{{ event.time }} on {{ event.date }}</span>
-    <h4>{{ event.title }}</h4>
-  </div>
+  <router-link :to="{ name: 'UserDetails', params: { id: event.id }  }">
+    <div class="user-card">
+      <!-- display event data -->
+      <span>@{{ event.time }} on {{ event.date }}</span>
+      <h4>{{ event.title }}</h4>
+    </div>
+  </router-link>
 </template>
 
 <script>
 export default {
-  name: "EventCard",
+  name: "UserCard",
   props: {
     event: Object,
   },
@@ -17,7 +19,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.event-card {
+.user-card {
   background-color: #f5f5f5;
   padding: 15px;
   margin: 0 auto;
