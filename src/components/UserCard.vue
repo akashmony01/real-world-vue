@@ -1,9 +1,9 @@
 <template>
-  <router-link :to="{ name: 'UserDetails', params: { id: event.id }  }">
+  <router-link :to="{ name: 'UserDetails', params: { id: user.id }  }">
     <div class="user-card">
       <!-- display event data -->
-      <span>@{{ event.time }} on {{ event.date }}</span>
-      <h4>{{ event.title }}</h4>
+      <span>@{{ user.time }} on {{ user.date }}</span>
+      <h4>{{ user.title }}</h4>
     </div>
   </router-link>
 </template>
@@ -12,7 +12,7 @@
 export default {
   name: "UserCard",
   props: {
-    event: Object,
+    user: Object,
   },
 }
 </script>

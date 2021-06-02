@@ -1,13 +1,13 @@
 <template>
   <div>
-    <UserCard v-for="event in events" :key="event.id" :event="event" />
+    <UserCard v-for="user in users" :key="user.id" :user="user" />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
 import UserCard from "@/components/UserCard.vue"
-import EventService from "@/services/EventService.js"
+import UserService from "@/services/UserService.js"
 
 export default {
   name: "UserList",
@@ -16,13 +16,13 @@ export default {
   },
   data() {
     return {
-      events: null,
+      users: null,
     }
   },
   created() {
-    EventService.getEvents()
+    UserService.getUsers()
       .then((response) => {
-        this.events = response.data
+        this.users = response.data
       })
       .catch((error) => {
         console.log(error)

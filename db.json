@@ -2,33 +2,30 @@
   "users": [
     {
       "id": 1,
-      "category": "Animal",
-      "title": "Evenet Title goes here",
-      "description": "This is the detail description.",
-      "date": "20 November 2021",
-      "time": "12:00",
-      "petsAllowed": true,
-      "organizer": "cat holders"
+      "name": "Jhon Abraham",
+      "email": "ja@gmail.com",
+      "title": "Rocky Handsome",
+      "department": "Action",
+      "status": "Active",
+      "Role": "Admin"
     },
     {
       "id": 2,
-      "category": "Human",
-      "title": "Again Title goes here",
-      "description": "Another the detail description.",
-      "date": "20 November 2022",
-      "time": "10:00",
-      "petsAllowed": true,
-      "organizer": "Homo holders"
-    },
+      "name": "Tom Hiddlestone",
+      "email": "th@gmail.com",
+      "title": "The Loki",
+      "department": "Michef",
+      "status": "Active",
+      "Role": "Admin"
+    }
     {
-      "id": 3,
-      "category": "Human",
-      "title": "Again Title goes here",
-      "description": "Another the detail description.",
-      "date": "20 November 2022",
-      "time": "10:00",
-      "petsAllowed": true,
-      "organizer": "Homo holders"
+      "id": 2,
+      "name": "Rayan Reynolds",
+      "email": "rr@gmail.com",
+      "title": "Dead Pool",
+      "department": "Dark Comedy",
+      "status": "Active",
+      "Role": "Admin"
     }
   ]
 }

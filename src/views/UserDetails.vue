@@ -1,27 +1,27 @@
 <template>
-  <div v-if="event">
+  <div v-if="user">
     <!-- display event details -->
-    <h1>{{ event.title }}</h1>
-    <h5>@{{ event.time }} on {{ event.date }}</h5>
-    <p>{{ event.description }}</p>
+    <h1>{{ user.title }}</h1>
+    <h5>@{{ user.time }} on {{ user.date }}</h5>
+    <p>{{ user.description }}</p>
   </div>
 </template>
 
 <script>
-import EventService from "@/services/EventService.js"
+import UserService from "@/services/UserService.js"
 
 export default {
   props: ["id"],
   data() {
     return {
-      event: null,
+      user: null,
     }
   },
   created() {
     //   fetch the event
-    EventService.getEvent(this.id)
+    UserService.getUser(this.id)
       .then((response) => {
-        this.event = response.data
+        this.user = response.data
       })
       .catch((error) => {
         console.log(error)
