@@ -30,5 +30,15 @@
       "petsAllowed": true,
       "organizer": "Homo holders"
     }
+    {
+      "id": 4,
+      "category": "Hanu-Man",
+      "title": "Again Title goes here",
+      "description": "Another the detail description.",
+      "date": "20 November 2022",
+      "time": "10:00",
+      "petsAllowed": true,
+      "organizer": "Homo holders"
+    }
   ]
 }
