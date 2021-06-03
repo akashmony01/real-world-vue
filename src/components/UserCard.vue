@@ -1,7 +1,7 @@
 <template>
   <tr>
     <td class="tdSpilt">
-      <img alt="Vue logo" :src="user.img" />
+      <img :src="user.img" :alt="user.name" />
       <div>
         <h6>{{ user.name }}</h6>
         <p>{{ user.email }}</p>
@@ -12,7 +12,7 @@
       <p>{{ user.department }}</p>
     </td>
     <td>
-      <p>{{ user.status }}</p>
+      <p class="stts">{{ user.status }}</p>
     </td>
     <td>
       <p>{{ user.role }}</p>
@@ -37,7 +37,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 img {
-  height: 50px;
+  height: 70px;
   width: auto;
   margin-right: 15px;
 }
@@ -49,12 +49,21 @@ h6 {
 p {
   margin: 0;
 }
+p.stts {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+  color: green;
+  padding: 5px 10px;
+  border-radius: 3px;
+  background-color: lightgreen;
+}
 td {
   border-top: 1px solid rgba(0, 0, 0, 0.25);
   padding: 10px;
 }
 td.tdSpilt {
   display: flex;
-  align-items: start;
+  align-items: center;
 }
 </style>
