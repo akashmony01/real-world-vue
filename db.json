@@ -42,16 +42,6 @@
     },
     {
       "id": 5,
-      "name": "Robert Downey Jr",
-      "email": "rdj@gmail.com",
-      "title": "Iron Man",
-      "department": "Comedy",
-      "status": "Active",
-      "role": "Admin",
-      "img": "https://i.pinimg.com/originals/ce/d4/e1/ced4e117b0f2f490c79e9e820d14cd99.jpg"
-    },
-    {
-      "id": 6,
       "name": "Keanu Reeves",
       "email": "rr@gmail.com",
       "title": "Jhon Wick",
