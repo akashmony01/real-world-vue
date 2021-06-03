@@ -1,7 +1,14 @@
 <template>
-  <div>
+  <table cellspacing="0">
+    <tr>
+      <th>Name</th>
+      <th>Title</th>
+      <th>Status</th>
+      <th>Role</th>
+      <th></th>
+    </tr>
     <UserCard v-for="user in users" :key="user.id" :user="user" />
-  </div>
+  </table>
 </template>
 
 <script>
@@ -30,3 +37,14 @@ export default {
   },
 }
 </script>
+
+<style scoped>
+table {
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  width: 100%;
+  text-align: left;
+}
+th {
+  padding: 10px;
+}
+</style>

@@ -7,7 +7,7 @@
       "title": "Rocky Handsome",
       "department": "Action",
       "status": "Active",
-      "Role": "Admin",
+      "role": "Admin",
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMrXME-icP3YtyNcMjGw4X0HQjMNLwTUlDobyG5MoB1q5kHHe5"
     },
     {
@@ -17,7 +17,7 @@
       "title": "The Loki",
       "department": "Michef",
       "status": "Active",
-      "Role": "Admin",
+      "role": "Admin",
       "img": "https://i.pinimg.com/originals/bd/3b/e0/bd3be0cfe90cd98fa36fb24726ce4ebf.png"
     },
     {
@@ -27,7 +27,7 @@
       "title": "Dead Pool",
       "department": "Dark Comedy",
       "status": "Active",
-      "Role": "Admin",
+      "role": "Admin",
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRU5ch-cyZfsalVLKhvcziOpwcYIupAag5kBk1azKYhoVEZFgbm"
     }
   ]
