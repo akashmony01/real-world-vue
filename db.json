@@ -32,16 +32,6 @@
     },
     {
       "id": 4,
-      "name": "Dwyane Jhonson",
-      "email": "dj@gmail.com",
-      "title": "The Rock",
-      "department": "Action",
-      "status": "Active",
-      "role": "Admin",
-      "img": "https://lirp.cdn-website.com/0470bcb4/dms3rep/multi/opt/Dwayne_Johnson_2%252C_2013-1000x1289-356w.jpg"
-    },
-    {
-      "id": 5,
       "name": "Keanu Reeves",
       "email": "rr@gmail.com",
       "title": "Jhon Wick",
