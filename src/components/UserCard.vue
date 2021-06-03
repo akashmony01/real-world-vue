@@ -37,8 +37,8 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 img {
-  height: 70px;
-  width: auto;
+  width: 50px;
+  height: auto;
   margin-right: 15px;
 }
 h6 {
@@ -59,7 +59,7 @@ p.stts {
   background-color: lightgreen;
 }
 td {
-  border-top: 1px solid rgba(0, 0, 0, 0.25);
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
   padding: 10px;
 }
 td.tdSpilt {
