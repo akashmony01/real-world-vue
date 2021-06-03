@@ -5,7 +5,7 @@
       <span>@{{ user.time }} on {{ user.date }}</span>
       <h4>{{ user.title }}</h4>
     </div>
-    <img alt="Vue logo" src="../assets/logo.png" />
+    <img alt="Vue logo" :src="user.img" />
     <router-link :to="{ name: 'UserDetails', params: { id: user.id } }">
       View
     </router-link>
